@@ -1,0 +1,30 @@
+.jumbotron{
+	background-color: #3075af;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+}
+
+.clear{
+	clear: both;
+	margin-bottom: 20px;
+}
+
+body{
+	font-family: Verdana;
+}
+
+head{
+	font-family: Verdana;
+}
+
+.bg-dark {
+  background-color: #3075af !important;
+}
+
+@media only screen and (max-width:768px) {
+.container{
+    width:100%!important;
+    padding:0;
+}
+
