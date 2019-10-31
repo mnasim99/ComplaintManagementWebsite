@@ -1,5 +1,5 @@
 .jumbotron{
-	background-color: #3075af;
+	background-color: #103045;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 	padding-top: 5px;
@@ -13,6 +13,7 @@
 body{
 	font-family: Verdana;
 	background: url("bahria-town-logo.png") repeat ;
+	background-color: #DDBD84;
 }
 
 head{
@@ -20,7 +21,23 @@ head{
 }
 
 .bg-dark {
-  background-color: #3075af !important;
+  background-color: #103045 !important;
+}
+
+div h2{
+	color: #103045;
+}
+
+div .btn{
+	width: 200px;
+}
+
+div .btn-secondary {
+  color: #103045;
+  background-color: #F2EFE6;
+  border-color: #103045;
+  border-width: 2px;
+  font-family: monospace;
 }
 
 @media only screen and (max-width:768px) {
@@ -28,4 +45,7 @@ head{
     width:100%!important;
     padding:0;
 }
+
+
+
 
